@@ -1,0 +1,108 @@
+
+.title
+{
+    text-align: center;
+    height: auto;
+    height: auto;
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    
+}
+.title p{
+    font-family: sans-serif;
+}
+.paramaters
+{
+    margin: auto;
+    margin-top: 10px;
+    width: 350px;
+    height: auto;
+    text-align: center;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    line-height: 1.6;
+    background-image: linear-gradient(to right, rgba(255, 53, 2,0.7) , rgb(255, 196, 0));  
+    font-size: 20px;
+    
+}
+.pointer
+{
+    cursor: pointer;
+}
+.output
+{
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    width: 600px;
+    height: auto;
+    padding: 40px;
+    font-size: 23px;
+    font-weight: bolder;
+    border-radius: 60px;
+    background-image: linear-gradient(to right, rgba(46, 162, 170,0.2) , rgb(8, 248, 216));
+}
+#passwordbox1
+{
+    font-size: 30px;
+    height: 60px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid black;
+    /* border: none; */
+    text-align: center;
+}
+
+#create
+{   
+    margin: auto;
+    padding: 15px 25px;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: rgb(43, 147, 231);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(41, 31, 126);
+}
+#create:hover {background-color: rgb(16, 148, 255)}
+
+#create:active {
+  background-color: rgb(43, 131, 202);
+  box-shadow: 0 5px rgb(0, 0, 0);
+  transform: translateY(2px);
+}
+
+#copy
+{
+    padding: 15px 25px;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: rgb(36, 209, 94);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(11, 8, 41);
+}
+#copy:hover {background-color: rgb(35, 221, 97)}
+#copy:active {
+  background-color: rgb(25, 129, 60);
+  box-shadow: 0 5px rgb(0, 0, 0);
+  transform: translateY(2px);
+}
+
+.passwordlenght
+{
+    color: blue;
+}
